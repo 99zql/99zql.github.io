@@ -5,7 +5,6 @@
     "avatar": "assets/img/avatar.png",
     "background": "assets/img/background.jpg"
   },
-
   "socials": [
     { "platform": "github",     "icon": "bi-github",     "url": "https://github.com/99zql" },
     { "platform": "instagram",  "icon": "bi-instagram",  "url": "https://www.instagram.com/99zql" },
@@ -13,7 +12,6 @@
     { "platform": "soundcloud", "icon": "bi-soundwave",  "url": "https://soundcloud.com/99zql" },
     { "platform": "steam",      "icon": "bi-steam",      "url": "https://steamcommunity.com/id/99zql" }
   ],
-
   "about": {
     "paragraphs": [
       "Fala! Me chamo Gabriel, mais conhecido como <span class='highlight'>99zql</span>, tenho 16 anos, sou um desenvolvedor apaixonado por tecnologia, principalmente programação.",
@@ -40,10 +38,9 @@
       "          +Invnvnvnnnnnnnnvvnn;.",
       "            ~|Invnvnvvnvvvnnv}+`",
       "                -~|{*l}*|~"
-  ],
-  "tags": ["Luau", "Python"]
-}
-
+    ],
+    "tags": ["Luau", "Python"]
+  },
   "experiences": [
     {
       "title": "Graduação em Desenvolvimento de Sistemas",
@@ -58,7 +55,6 @@
       "desc": "descrição curta do que você faz aqui."
     }
   ],
-
   "media": [
     "assets/media/1.jpg",
     "assets/media/2.jpg",
@@ -67,12 +63,10 @@
     "assets/media/5.jpg",
     "assets/media/6.jpg"
   ],
-
   "playlist": [
     { "title": "Eterno", "file": "assets/music/Eterno)(feat.Lucien)shot.by(Santanapluggz).mp3", "cover": "assets/music/covers/Eterno)(feat.Lucien)shot.by(Santanapluggz).jpg" },
     { "title": "faixa 02", "file": "assets/music/Luxuria.mp3", "cover": "assets/music/covers/Luxuria.jpg" }
   ],
-
   "theme": {
     "accentColor": "#00ff00",
     "accentColor2": "#7c6aff",
