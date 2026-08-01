@@ -69,7 +69,22 @@ function renderSocials(socials) {
 
 /* ================= ABOUT ================= */
 function renderAbout(about) {
-  document.getElementById('sobreText').innerHTML = about.html || '';
+  const sobreEl = document.getElementById('sobreText');
+  sobreEl.innerHTML = '';
+
+  (about.paragraphs || []).forEach(text => {
+    const p = document.createElement('p');
+    p.innerHTML = text; // permite <span class="highlight">...</span> dentro do parágrafo
+    sobreEl.appendChild(p);
+  });
+
+  if (about.ascii && about.ascii.length) {
+    const pre = document.createElement('pre');
+    pre.className = 'sobre-ascii';
+    pre.textContent = about.ascii.join('\n');
+    sobreEl.appendChild(pre);
+  }
+
   const tagsEl = document.getElementById('sobreTags');
   tagsEl.innerHTML = '';
   (about.tags || []).forEach(tag => {
