@@ -78,7 +78,7 @@
     "accentColor2": "#7c6aff",
     "backgroundDarkness": 0,
     "glassOpacity": 0.5,
-    "glassBlur": 22,
+    "glassBlur": 20,
     "defaultVolume": 0.5
   }
 }
