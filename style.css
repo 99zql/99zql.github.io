@@ -544,7 +544,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 0 14px 12px;
+  padding: 0 10px 12px;
   border-top: 1px solid rgba(255,255,255,0.06);
   padding-top: 10px;
 }
@@ -566,7 +566,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: 8px;
-  flex: 1;
+  flex: 0 1 90px;
   min-width: 0;
 }
 
