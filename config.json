@@ -52,9 +52,9 @@
   "theme": {
     "accentColor": "#5fb8ff",
     "accentColor2": "#7c6aff",
-    "backgroundDarkness": 0.58,
-    "glassOpacity": 0.55,
+    "backgroundDarkness": 0,
+    "glassOpacity": 0.5,
     "glassBlur": 22,
-    "defaultVolume": 0.6
+    "defaultVolume": 0.5
   }
 }
