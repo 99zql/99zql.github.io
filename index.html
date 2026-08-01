@@ -26,36 +26,6 @@
 <div class="bg-layer" id="bgLayer"></div>
 <div class="bg-blur"></div>
 
-<div id="music-player">
-  <div class="mp-main">
-    <div class="mp-disc-wrap">
-      <div class="mp-disc" id="mp-disc">
-        <img class="mp-cover-art" id="mp-cover-art" src="" alt="">
-      </div>
-    </div>
-
-    <div class="mp-info">
-      <span class="mp-title" id="mp-title">carregando...</span>
-      <div class="mp-progress">
-        <span class="mp-time" id="mp-curtime">0:00</span>
-        <input type="range" id="mp-seek" class="mp-seek" min="0" max="100" value="0" step="0.1">
-        <span class="mp-time" id="mp-durtime">0:00</span>
-      </div>
-    </div>
-  </div>
-
-  <div class="mp-controls">
-    <button class="mp-btn" id="mp-prev" title="Anterior"><i class="bi bi-skip-start-fill"></i></button>
-    <button class="mp-btn mp-btn-play" id="mp-toggle" title="Play/Pause"><i class="bi bi-play-fill" id="mp-icon"></i></button>
-    <button class="mp-btn" id="mp-next" title="Próxima"><i class="bi bi-skip-end-fill"></i></button>
-
-    <div class="mp-volume-row">
-      <i class="bi bi-volume-up mp-vol-icon" id="mp-vol-icon"></i>
-      <input type="range" id="mp-volume" class="mp-volume" min="0" max="100" value="60">
-    </div>
-  </div>
-</div>
-
 <audio id="audio" preload="auto"></audio>
 
 <div class="page-content">
@@ -66,6 +36,38 @@
     </div>
     <p class="nick" id="userNick"></p>
     <p class="desc" id="userTagline"></p>
+
+    <div class="divider"></div>
+
+    <div id="music-player">
+      <div class="mp-main">
+        <div class="mp-disc-wrap">
+          <div class="mp-disc" id="mp-disc">
+            <img class="mp-cover-art" id="mp-cover-art" src="" alt="">
+          </div>
+        </div>
+
+        <div class="mp-info">
+          <span class="mp-title" id="mp-title">carregando...</span>
+          <div class="mp-progress">
+            <span class="mp-time" id="mp-curtime">0:00</span>
+            <input type="range" id="mp-seek" class="mp-seek" min="0" max="100" value="0" step="0.1">
+            <span class="mp-time" id="mp-durtime">0:00</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="mp-controls">
+        <button class="mp-btn" id="mp-prev" title="Anterior"><i class="bi bi-skip-start-fill"></i></button>
+        <button class="mp-btn mp-btn-play" id="mp-toggle" title="Play/Pause"><i class="bi bi-play-fill" id="mp-icon"></i></button>
+        <button class="mp-btn" id="mp-next" title="Próxima"><i class="bi bi-skip-end-fill"></i></button>
+
+        <div class="mp-volume-row">
+          <i class="bi bi-volume-up mp-vol-icon" id="mp-vol-icon"></i>
+          <input type="range" id="mp-volume" class="mp-volume" min="0" max="100" value="60">
+        </div>
+      </div>
+    </div>
 
     <div class="divider"></div>
 
