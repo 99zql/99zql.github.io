@@ -420,28 +420,26 @@ html, body {
 .midia-item:hover img { transform: scale(1.04); }
 
 /* ================= MUSIC PLAYER ================= */
-/* pill compacto no topo, sempre com controles + volume visíveis abaixo do separador */
+/* sem cartão próprio: usa o mesmo tema visual do .card (mesmo gradiente/opacity/blur) */
 
 #music-player {
-  width: 100%;
+  width: calc(100% + 60px);
+  margin: -34px -30px 0;
+  padding-top: 4px;
+  border-radius: 30px 30px 0 0;
 
   background:
-    linear-gradient(155deg, rgba(255,255,255,0.09), rgba(255,255,255,0.02)),
-    rgba(10, 10, 15, 0.62);
-  border: 1px solid rgba(255,255,255,0.12);
-  border-top-color: rgba(255,255,255,0.28);
-  border-radius: 20px;
-  backdrop-filter: blur(20px) saturate(160%);
-  -webkit-backdrop-filter: blur(20px) saturate(160%);
-  box-shadow: 0 10px 28px rgba(0,0,0,0.25);
-  overflow: hidden;
+    linear-gradient(155deg, rgba(255,255,255,0.10), rgba(255,255,255,0.02) 40%, rgba(255,255,255,0.04) 100%),
+    rgba(12, 13, 18, var(--glass-opacity));
+
+  border-bottom: 1px solid rgba(255,255,255,0.10);
 }
 
 .mp-main {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 10px 8px 10px 10px;
+  padding: 14px 20px 10px;
 }
 
 .mp-disc-wrap {
@@ -560,9 +558,8 @@ html, body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 0 14px 12px;
+  padding: 10px 20px 14px;
   border-top: 1px solid rgba(255,255,255,0.06);
-  padding-top: 10px;
 }
 
 .mp-btn {
@@ -691,4 +688,5 @@ html, body {
   .social-btn { width: 40px; height: 40px; font-size: 1.05rem; }
   .cat-btn { font-size: 0.65rem; padding: 8px 4px; }
   .midias-grid { grid-template-columns: repeat(2, 1fr); gap: 8px; }
+  #music-player { width: calc(100% + 40px); margin: -26px -20px 0; border-radius: 26px 26px 0 0; }
 }
