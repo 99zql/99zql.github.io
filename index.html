@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title>99zql</title>
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://99zql.github.io/">
+<meta property="og:title" content="99zql">
+<meta property="og:description" content="perfil do 99zql">
+<meta name="theme-color" content="#5fb8ff">
+<link rel="icon" href="assets/img/avatar.jpg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="splash">
+  <p class="splash-text">clique para <span>entrar</span></p>
+</div>
+
+<div id="site">
+<div class="bg-layer" id="bgLayer"></div>
+<div class="bg-blur"></div>
+
+<div id="music-player">
+  <div class="mp-main">
+    <div class="mp-disc-wrap">
+      <div class="mp-disc" id="mp-disc">
+        <img class="mp-cover-art" id="mp-cover-art" src="" alt="">
+      </div>
+    </div>
+
+    <div class="mp-info">
+      <span class="mp-title" id="mp-title">carregando...</span>
+      <div class="mp-progress">
+        <span class="mp-time" id="mp-curtime">0:00</span>
+        <input type="range" id="mp-seek" class="mp-seek" min="0" max="100" value="0" step="0.1">
+        <span class="mp-time" id="mp-durtime">0:00</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="mp-controls">
+    <button class="mp-btn" id="mp-prev" title="Anterior"><i class="bi bi-skip-start-fill"></i></button>
+    <button class="mp-btn mp-btn-play" id="mp-toggle" title="Play/Pause"><i class="bi bi-play-fill" id="mp-icon"></i></button>
+    <button class="mp-btn" id="mp-next" title="Próxima"><i class="bi bi-skip-end-fill"></i></button>
+
+    <div class="mp-volume-row">
+      <i class="bi bi-volume-up mp-vol-icon" id="mp-vol-icon"></i>
+      <input type="range" id="mp-volume" class="mp-volume" min="0" max="100" value="60">
+    </div>
+  </div>
+</div>
+
+<audio id="audio" preload="auto"></audio>
+
+<div class="page-content">
+  <div class="card">
+
+    <div class="avatar-wrap">
+      <img id="user-avatar" src="" alt="avatar">
+    </div>
+    <p class="nick" id="userNick"></p>
+    <p class="desc" id="userTagline"></p>
+
+    <div class="divider"></div>
+
+    <div class="social-row" id="socialRow"></div>
+
+    <nav class="category-nav">
+      <button class="cat-btn active" data-tab="sobre">Sobre mim</button>
+      <button class="cat-btn" data-tab="exp">Experiências</button>
+      <button class="cat-btn" data-tab="midias">Mídias</button>
+    </nav>
+
+    <div class="content-panel active" id="panel-sobre">
+      <p class="panel-title">Sobre mim</p>
+      <p class="sobre-text" id="sobreText"></p>
+      <div class="sobre-tags" id="sobreTags"></div>
+    </div>
+
+    <div class="content-panel" id="panel-exp">
+      <p class="panel-title">Experiências</p>
+      <div class="exp-list" id="expList"></div>
+    </div>
+
+    <div class="content-panel" id="panel-midias">
+      <p class="panel-title">Mídias</p>
+      <div class="midias-grid" id="midiasGrid"></div>
+    </div>
+
+  </div>
+</div>
+
+<div id="lightbox">
+  <div class="lb-backdrop" id="lb-backdrop"></div>
+  <div class="lb-img-wrap" id="lb-img-wrap">
+    <img id="lb-img" src="" alt="">
+  </div>
+  <button class="lb-close" id="lb-close" title="Fechar"><i class="bi bi-x-lg"></i></button>
+</div>
+</div><!-- /#site -->
+
+<script src="script.js"></script>
+</body>
+</html>

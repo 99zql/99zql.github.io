@@ -1,0 +1,60 @@
+{
+  "profile": {
+    "nick": "99zql",
+    "tagline": "dev roblox · faço uns som no soundcloud de vez em quando",
+    "avatar": "assets/img/avatar.png",
+    "background": "assets/img/background.jpg"
+  },
+
+  "socials": [
+    { "platform": "github",     "icon": "bi-github",     "url": "https://github.com/99zql" },
+    { "platform": "instagram",  "icon": "bi-instagram",  "url": "https://www.instagram.com/99zql" },
+    { "platform": "roblox",     "icon": "bi-controller", "url": "https://www.roblox.com/users/3580359954/profile" },
+    { "platform": "soundcloud", "icon": "bi-soundwave",  "url": "https://soundcloud.com/99zql" },
+    { "platform": "steam",      "icon": "bi-steam",      "url": "https://steamcommunity.com/id/99zql" }
+  ],
+
+  "about": {
+    "html": "Fala! <span class='highlight'>99zql</span> aqui, dev Roblox trabalhando com <span class='highlight'>Luau</span> — sistemas de jogo do lado do cliente e do servidor. Fora isso solto uns sons no Soundcloud quando dá vontade.<br><br>Esse espaço aqui é meu perfil pessoal — links, o que eu tô ouvindo, e uma aba de mídias com print de projeto e outras paradas.",
+    "tags": ["Roblox Studio", "Luau", "Python"]
+  },
+
+  "experiences": [
+    {
+      "title": "nome do projeto/empresa",
+      "role": "seu cargo aqui",
+      "period": "ano — ano",
+      "desc": "descrição curta do que você fez aqui."
+    },
+    {
+      "title": "outro projeto",
+      "role": "seu cargo aqui",
+      "period": "ano — presente",
+      "desc": "descrição curta do que você faz aqui."
+    }
+  ],
+
+  "media": [
+    "assets/media/1.jpg",
+    "assets/media/2.jpg",
+    "assets/media/3.jpg",
+    "assets/media/4.jpg",
+    "assets/media/5.jpg",
+    "assets/media/6.jpg"
+  ],
+
+  "playlist": [
+    { "title": "Eterno", "file": "assets/music/Eterno)(feat.Lucien)shot.by(Santanapluggz).mp3", "cover": "assets/music/covers/1.jpg" },
+    { "title": "faixa 02", "file": "assets/music/track2.mp3", "cover": "assets/music/covers/2.jpg" },
+    { "title": "faixa 03", "file": "assets/music/track3.mp3", "cover": "assets/music/covers/3.jpg" }
+  ],
+
+  "theme": {
+    "accentColor": "#5fb8ff",
+    "accentColor2": "#7c6aff",
+    "backgroundDarkness": 0,
+    "glassOpacity": 0.5,
+    "glassBlur": 22,
+    "defaultVolume": 0.5
+  }
+}
