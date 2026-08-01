@@ -12,11 +12,11 @@
     { "platform": "soundcloud", "icon": "bi-soundwave",  "url": "https://soundcloud.com/99zql" },
     { "platform": "steam",      "icon": "bi-steam",      "url": "https://steamcommunity.com/id/99zql" }
   ],
-
+  
   "about": {
-    "html": "<span class='highlight'>opsec</span>, depois eu termino kkkkkkkk",
+    "html": "<p>Fala! Me chamo Gabriel, mais conhecido como <span class='highlight'>99zql</span>, tenho 16 anos, sou um desenvolvedor apaixonado por tecnologia, principalmente programação.</p><p>Grande parte do meu tempo livre acaba indo para projetos pessoais. Gosto de criar sistemas do zero, pensar na arquitetura, melhorar performance e deixar tudo o mais simples e organizado possível.</p><p>Atualmente estou focado no desenvolvimento de jogos no <span class='highlight'>Roblox</span>, estudando cada vez mais networking, interfaces, sistemas escaláveis e formas de escrever código limpo e fácil de manter.</p><p>Além disso, também tenho bastante interesse por software livre, segurança digital e entender como as coisas realmente funcionam por trás dos bastidores.</p><pre class='sobre-ascii'>              __.;=====;.__\n          _.=+==++=++=+=+===;.\n           -=+++=+===+=+=+++++=_\n      .     -=:``     `--==+=++==.\n     _vi,    `            --+=++++:\n    .uvnvi.       _._       -==+==+.\n   .vvnvnI`    .;==|==;.     :|=||=|.\n+QmQQmpvvnv; _yYsyQQWUUQQQm #QmQ#:QQQWUV$QQm.\n -QQWQWpvvowZ?.wQQQE==<QWWQ/QWQW.QQWW(: jQWQE\n  -$QQQQmmU'  jQQQ\\@+=<QWQQ)mQQQ.mQQQC+;jWQQ\\@'\n   -$WQ8YnI:   QWQQwgQQWV`mWQQ.jQWQQgyyWW\\@!\n     -1vvnvv.     `~+++`        ++|+++\n      +vnvnnv,                 `-|===\n       +vnvnvns.           .      :=-\n        -Invnvvnsi..___..=sv=.     `\n          +Invnvnvnnnnnnnnvvnn;.\n            ~|Invnvnvvnvvvnnv}+`\n                -~|{*l}*|~</pre>",
     "tags": ["Luau", "Python"]
-  },
+  }
 
   "experiences": [
     {
