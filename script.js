@@ -81,7 +81,7 @@ function renderAbout(about) {
   if (about.ascii && about.ascii.length) {
     const pre = document.createElement('pre');
     pre.className = 'sobre-ascii';
-    pre.textContent = about.ascii.join('\n');
+    pre.innerHTML = about.ascii.join('\n'); // permite <span class="c1">...</span> por linha p/ cor
     sobreEl.appendChild(pre);
   }
 
