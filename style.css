@@ -334,7 +334,7 @@ html, body {
 }
 
 .sobre-ascii .c1 { color: var(--accent); }
-.sobre-ascii .c2 { color: color-mix(in srgb, var(--accent) 45%, #0a2a12); }
+.sobre-ascii .c2 { color: rgba(190, 190, 200, 0.55); }
 
 .sobre-tags {
   display: flex;
