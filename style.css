@@ -314,7 +314,21 @@ html, body {
   line-height: 1.8;
 }
 
+.sobre-text p { margin: 0 0 14px; }
+.sobre-text p:last-child { margin-bottom: 0; }
+
 .sobre-text .highlight { color: var(--accent); font-weight: 500; }
+
+.sobre-ascii {
+  color: color-mix(in srgb, var(--accent) 70%, rgba(200,200,220,0.6));
+  font-size: 0.6rem;
+  line-height: 1.15;
+  white-space: pre;
+  overflow-x: auto;
+  text-align: center;
+  margin: 18px 0;
+  opacity: 0.85;
+}
 
 .sobre-tags {
   display: flex;
@@ -544,7 +558,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 0 10px 12px;
+  padding: 0 14px 12px;
   border-top: 1px solid rgba(255,255,255,0.06);
   padding-top: 10px;
 }
@@ -566,7 +580,7 @@ html, body {
   display: flex;
   align-items: center;
   gap: 8px;
-  flex: 0 1 90px;
+  flex: 1;
   min-width: 0;
 }
 
