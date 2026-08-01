@@ -3,6 +3,18 @@
    na raiz do projeto. Edite aquele arquivo, não este.
 ====================================================== */
 
+/* ================= BLOQUEIO DE INTERAÇÃO ================= */
+document.addEventListener('contextmenu', e => e.preventDefault());
+document.addEventListener('dragstart', e => e.preventDefault());
+document.addEventListener('keydown', e => {
+  const blocked = (
+    e.key === 'F12' ||
+    (e.ctrlKey && ['u', 'U', 's', 'S', 'c', 'C', 'p', 'P', 'i', 'I', 'j', 'J'].includes(e.key)) ||
+    (e.ctrlKey && e.shiftKey && ['i', 'I', 'j', 'J', 'c', 'C', 'k', 'K'].includes(e.key))
+  );
+  if (blocked) e.preventDefault();
+});
+
 let CONFIG = null;
 let playlist = [];
 let configReady = false;
