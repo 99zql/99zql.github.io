@@ -143,7 +143,7 @@ async function refineMediaSizes() {
 }
 
 function photoStyle(m) {
-  const [x, y, w, h] = m.crop || [0, 0, 1, 1];
+  const [x = 0, y = 0, w = 1, h = 1] = m.crop || [];
   const pos = (o, s) => (s >= 1 ? 0 : (o / (1 - s)) * 100);
   return `background-image:url("${m.src || CONFIG.background}");background-size:${100 / w}% ${100 / h}%;background-position:${pos(x, w)}% ${pos(y, h)}%`;
 }
