@@ -1,0 +1,247 @@
+{
+  "language": "pt-BR",
+  "title": "⊱ 99zql ⊰",
+  "name": "99zql",
+  "avatar": "assets/images/avatar.png",
+  "background": "assets/images/wallhaven-l8ov9l.webp",
+  "profile": {
+    "github": "https://github.com/99zql",
+    "discord": "99zql",
+    "email": "gabrielzampolli21@email.com"
+  },
+  "theme": {
+    "fontStack": "-apple-system, BlinkMacSystemFont, \"SF Pro Display\", \"SF Pro Text\", \"Inter\", system-ui, sans-serif",
+    "clockFontStack": "ui-rounded, -apple-system, BlinkMacSystemFont, system-ui, sans-serif",
+    "scrim": "linear-gradient(rgba(0,0,0,.24), rgba(0,0,0,.24))",
+    "blue": "#0a84ff",
+    "spring": "cubic-bezier(.3,1.25,.5,1)",
+    "iconBase": "https://api.iconify.design/bi/",
+    "liquidGlassMargin": 64,
+    "glassPixelRatio": 1.25,
+    "textColors": {
+      "amarelo": "#ffd60a",
+      "laranja": "#ff9f0a",
+      "vermelho": "#ff453a",
+      "rosa": "#ff6482",
+      "roxo": "#bf5af2",
+      "azul": "#0a84ff",
+      "ciano": "#64d2ff",
+      "verde": "#30d158",
+      "branco": "#ffffff"
+    }
+  },
+  "window": {
+    "edge": 8,
+    "minWidth": 360,
+    "minHeight": 300,
+    "defaultMaxWidth": 780,
+    "desktopTop": 74,
+    "desktopBottom": 184,
+    "mobileTop": 64,
+    "mobileBottom": 192,
+    "fullscreenMaxWidth": 1080,
+    "glassRadius": 32
+  },
+  "galleryLayout": {
+    "gap": 12,
+    "minColumnWidth": 150
+  },
+  "pages": [
+    {
+      "id": "sobre",
+      "label": "Sobre mim",
+      "icon": "person"
+    },
+    {
+      "id": "midias",
+      "label": "Mídias",
+      "icon": "image"
+    },
+    {
+      "id": "links",
+      "label": "Links",
+      "icon": "link-45deg"
+    }
+  ],
+  "about": "Opa! Me chamo **Gabriel**, mais conhecido como ==99zql|roxo== na internet.\nNão tô fazendo muita coisa nesse meio-tempo, só existindo.\n\nEu gosto daqui.\n\n:::void\n${c1}                __.;=====;.__\n            _.=+==++=++=+=+===;.\n             -=+++=+===+=+=+++++=_\n        .     -=:``     `--==+=++==.\n       _vi,    `            --+=++++:\n      .uvnvi.       _._       -==+==+.\n     .vvnvnI`    .;==|==;.     :|=||=|.\n${c2}+QmQQm${c1}pvvnv; ${c2}_yYsyQQWUUQQQm #QmQ#${c1}:${c2}QQQWUV$QQm.\n${c2} -QQWQW${c1}pvvo${c2}wZ?.wQQQE${c1}==<${c2}QWWQ/QWQW.QQWW${c1}(: ${c2}jQWQE\n${c2}  -$QQQQmmU'  jQQQ@${c1}+=<${c2}QWQQ)mQQQ.mQQQC${c1}+;${c2}jWQQ@'\n${c2}   -$WQ8Y${c1}nI:   ${c2}QWQQwgQQWV${c1}`${c2}mWQQ.jQWQQgyyWW@!\n${c1}     -1vvnvv.     `~+++`        ++|+++\n      +vnvnnv,                 `-|===\n       +vnvnvns.           .      :=-\n        -Invnvvnsi..___..=sv=.     `\n          +Invnvnvnnnnnnnnvvnn;.\n            ~|Invnvnvvnvvvnnv}+`\n               -~|{*l}*|~\n:::",
+  "experiences": [
+    {
+      "title": "Graduação em Desenvolvimento de Sistemas e Softwares",
+      "period": "2026 - presente",
+      "place": "",
+      "description": "Cursando Análise e Desenvolvimento de Sistemas, com foco em lógica de programação, banco de dados e desenvolvimento de software."
+    }
+  ],
+  "media": [
+    {
+      "src": "assets/images/wallpaper.webp",
+      "crop": [
+        0.52,
+        0.32,
+        0.46,
+        0.61
+      ],
+      "title": "Vilarejo entre as montanhas",
+      "desc": "Foto de exemplo. Troque pela sua em site.json."
+    },
+    {
+      "src": "assets/images/wallpaper.webp",
+      "crop": [
+        0,
+        0.18,
+        0.34,
+        0.62
+      ],
+      "title": "Folhagem vermelha",
+      "desc": "Foto de exemplo. Cada foto tem nome e descrição próprios."
+    },
+    {
+      "src": "assets/images/wallpaper.webp",
+      "crop": [
+        0.12,
+        0.6,
+        0.3,
+        0.397
+      ],
+      "title": "Casa de palha",
+      "desc": "Foto de exemplo. Toque para abrir em tela cheia e use o zoom."
+    },
+    {
+      "src": "assets/images/wallpaper.webp",
+      "crop": [
+        0.3,
+        0.4,
+        0.3,
+        0.58
+      ],
+      "title": "Campos de arroz",
+      "desc": "Foto de exemplo. Arraste para mover quando estiver com zoom."
+    },
+    {
+      "src": "assets/images/wallpaper.webp",
+      "crop": [
+        0.3,
+        0,
+        0.3,
+        0.6
+      ],
+      "title": "Floresta de outono",
+      "desc": "Foto de exemplo. Pinça, roda do mouse e duplo toque também dão zoom."
+    },
+    {
+      "src": "assets/images/wallpaper.webp",
+      "crop": [
+        0.7,
+        0.3,
+        0.3,
+        0.397
+      ],
+      "title": "Estrada do vilarejo",
+      "desc": "Foto de exemplo. Use as setas do teclado para trocar de foto."
+    }
+  ],
+  "links": [
+    {
+      "title": "Desenvolvimento",
+      "icon": "code-slash",
+      "items": [
+        {
+          "label": "GitHub",
+          "url": "https://github.com/",
+          "detail": "Projetos e código"
+        },
+        {
+          "label": "MDN Web Docs",
+          "url": "https://developer.mozilla.org/",
+          "detail": "Referência para web"
+        },
+        {
+          "label": "Can I use",
+          "url": "https://caniuse.com/",
+          "detail": "Compatibilidade de recursos"
+        }
+      ]
+    },
+    {
+      "title": "Design",
+      "icon": "palette",
+      "items": [
+        {
+          "label": "Icones",
+          "url": "https://icones.js.org/",
+          "detail": "Catálogo de ícones"
+        },
+        {
+          "label": "Google Fonts",
+          "url": "https://fonts.google.com/",
+          "detail": "Fontes para projetos"
+        },
+        {
+          "label": "Coolors",
+          "url": "https://coolors.co/",
+          "detail": "Paletas de cores"
+        }
+      ]
+    },
+    {
+      "title": "Ferramentas",
+      "icon": "tools",
+      "items": [
+        {
+          "label": "Photopea",
+          "url": "https://www.photopea.com/",
+          "detail": "Editor de imagens no navegador"
+        },
+        {
+          "label": "TinyPNG",
+          "url": "https://tinypng.com/",
+          "detail": "Otimização de imagens"
+        },
+        {
+          "label": "Excalidraw",
+          "url": "https://excalidraw.com/",
+          "detail": "Diagramas e rascunhos"
+        }
+      ]
+    }
+  ],
+  "audioDirectory": "assets/audio/",
+  "tracks": [
+    {
+      "title": "Cigarettes Out The Window",
+      "artist": "TV Girl",
+      "src": "assets/audio/TV Girl - Cigarettes Out The Window.m4a",
+      "artwork": "assets/images/cover-tv-girl.webp",
+      "art": "linear-gradient(145deg,#e91e86,#172b72)",
+      "waveColor": "#e82d91",
+      "length": 199.006939
+    },
+    {
+      "title": "Sweater Weather",
+      "artist": "The Neighbourhood",
+      "src": "assets/audio/Sweater Weather.mp3",
+      "artwork": "assets/images/cover-sweater-weather.webp",
+      "art": "linear-gradient(145deg,#d8d8d8,#383838)",
+      "waveColor": "#c8c8c8",
+      "length": 240.457143
+    },
+    {
+      "title": "D>E>A>T>H>M>E>T>A>L",
+      "artist": "Panchiko",
+      "src": "assets/audio/DᐳEᐳAᐳTᐳHᐳMᐳEᐳTᐳAᐳL.mp3",
+      "artwork": "assets/images/cover-deathmetal.webp",
+      "art": "linear-gradient(145deg,#57b3d0,#f0eee8)",
+      "waveColor": "#63b2c8",
+      "length": 261
+    },
+    {
+      "title": "BENADRYL ANGYL",
+      "artist": "SEMATARY, SEMATARY ANVIL",
+      "src": "assets/audio/SEMATARY, SEMATARY ANVIL - BENADRYL ANGYL.m4a",
+      "artwork": "assets/images/cover-sematary.webp",
+      "art": "linear-gradient(145deg,#2475b5,#a82735)",
+      "waveColor": "#db3038",
+      "length": 210.166304
+    }
+  ]
+}
