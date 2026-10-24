@@ -743,7 +743,7 @@ const pageMedia = () => `<div class="mgrid" id="mgrid"></div>`;
 const pageLinks = () => `<div class="link-folders">${CONFIG.links.map((folder, i) => `<details class="link-folder" ${i === 0 ? "open" : ""}><summary>${icon(folder.icon)}<span>${E(folder.title)}</span>${icon("chevron-down", "folder-chevron")}</summary><div class="folder-items">${folder.items.map((item) => `<a class="resource-link" href="${E(item.url)}" target="_blank" rel="noopener noreferrer"><span><b>${E(item.label)}</b><small>${E(item.detail)}</small></span>${icon("box-arrow-up-right")}</a>`).join("")}</div></details>`).join("")}</div>`;
 
 const mediaItem = (m, i) =>
-  `<button class="mth" data-act="lb" data-i="${i}" aria-label="${E(m.title)}" style="aspect-ratio:${m.size.w / m.size.h}"><span class="photo" style="${photoStyle(m)}"></span><span class="cap">${E(m.title)}</span></button>`;
+  `<button class="mth" data-act="lb" data-i="${i}" aria-label="${E(m.title)}" style="aspect-ratio:${m.size.w / m.size.h}"><span class="photo" style="${E(photoStyle(m))}"></span><span class="cap">${E(m.title)}</span></button>`;
 
 function layoutMedia() {
   const grid = $("mgrid");
