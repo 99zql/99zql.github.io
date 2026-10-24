@@ -74,70 +74,88 @@
   ],
   "media": [
     {
-      "src": "assets/images/wallpaper.webp",
+      "src": "assets/images/864596938_18104964281528396_5615196802851600403_n.webp",
       "crop": [
-        0.52,
-        0.32,
-        0.46,
-        0.61
       ],
-      "title": "Vilarejo entre as montanhas",
-      "desc": "Foto de exemplo. Troque pela sua em site.json."
+      "title": "A bb",
+      "desc": "mozÃOOOOOOOOOO"
     },
     {
-      "src": "assets/images/wallpaper.webp",
+      "src": "assets/images/790268630_18097909841528396_175831317767089907_n.webp",
       "crop": [
-        0,
-        0.18,
-        0.34,
-        0.62
       ],
-      "title": "Folhagem vermelha",
-      "desc": "Foto de exemplo. Cada foto tem nome e descrição próprios."
+      "title": "ela",
+      "desc": "essa menina é muito perfeita"
     },
     {
-      "src": "assets/images/wallpaper.webp",
+      "src": "assets/images/IMG-20260715-WA0023.jpg",
       "crop": [
-        0.12,
-        0.6,
-        0.3,
-        0.397
       ],
-      "title": "Casa de palha",
-      "desc": "Foto de exemplo. Toque para abrir em tela cheia e use o zoom."
+      "title": "os olhos mais lindos do mundo",
+      "desc": "amo seus olhos"
     },
     {
-      "src": "assets/images/wallpaper.webp",
+      "src": "assets/images/20260714_192526.jpg",
       "crop": [
-        0.3,
-        0.4,
-        0.3,
-        0.58
       ],
-      "title": "Campos de arroz",
-      "desc": "Foto de exemplo. Arraste para mover quando estiver com zoom."
+      "title": "eu i ela S2",
+      "desc": ""
     },
     {
-      "src": "assets/images/wallpaper.webp",
+      "src": "assets/images/20260707_174347-01.jpeg",
       "crop": [
-        0.3,
-        0,
-        0.3,
-        0.6
       ],
-      "title": "Floresta de outono",
-      "desc": "Foto de exemplo. Pinça, roda do mouse e duplo toque também dão zoom."
+      "title": "#niche #sw4g",
+      "desc": "ahhh larp da porra kkkkkkk"
     },
     {
-      "src": "assets/images/wallpaper.webp",
+      "src": "assets/images/IMG-20260412-WA0020.jpg",
       "crop": [
-        0.7,
-        0.3,
-        0.3,
-        0.397
       ],
-      "title": "Estrada do vilarejo",
-      "desc": "Foto de exemplo. Use as setas do teclado para trocar de foto."
+      "title": "o Bob",
+      "desc": "meo cachorro lindo perfeito"
+    },
+    {
+      "src": "assets/images/IMG-20260721-WA0131.jpeg",
+      "crop": [
+      ],
+      "title": "bob sem pelo",
+      "desc": ""
+    },
+    {
+      "src": "assets/images/20260701_102612.jpg",
+      "crop": [
+      ],
+      "title": "freddy.exe",
+      "desc": "ta possuído"
+    },
+    {
+      "src": "assets/images/20260701_102612.jpg",
+      "crop": [
+      ],
+      "title": "rainbow bridge freddon.exe",
+      "desc": "obra de arte"
+    },
+    {
+      "src": "assets/images/IMG-20260725-WA0006.jpeg",
+      "crop": [
+      ],
+      "title": "freddy normal",
+      "desc": ":D"
+    },
+    {
+      "src": "assets/images/IMG-20260725-WA0009.jpeg",
+      "crop": [
+      ],
+      "title": "freddy possuído 2",
+      "desc": ""
+    },
+    {
+      "src": "assets/images/IMG-20260722-WA0056.jpeg",
+      "crop": [
+      ],
+      "title": "skate veio",
+      "desc": "xe xabi"
     }
   ],
   "links": [
